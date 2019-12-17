@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 70px;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+}
+p {
+  font-size: 20px;
+}
+h2 , h3 {
+  color: #49beb7;
+}
+hr {
+  border-color: grey;
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 7px;
+}
+.prog {
+  font-size: 25px;
+  margin-top: 5px;
+}
+.top {
+  position: relative;
+  padding-top: 140px;
+  background-color: #d7f7f5;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+  left: 420px;
+  width: 160px;
+  bottom: 180px;
+}
+.top-cloud {
+  position: absolute;
+  width: 160px;
+  right: 420px;
+}
+.mountain {
+  width: 60%;
+}
+.my-skills {
+  font-size: 35px;
+}
+.profile {
+  margin-bottom: 50px;
+}
+.profile-pic {
+  width: 20%;
+  border-radius: 50%;
+}
+.coding {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.rubix {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.get-in {
+  font-size: 45px;
+}
+.bottom {
+  background-color: #49beb7;
+  height: 90px;
+  margin-top: 40px;
+}
+.bottom > a {
+  text-decoration: none;
+  color: #01676b;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  margin: auto 20px;
+}
+.contact-me {
+  margin: 80px 0;
+}
+.myButton {
+  margin-top: 30px;
+	background:linear-gradient(to bottom, #45c7ad 5%, #2a78bd 100%);
+	background-color:#45c7ad;
+	border-radius:28px;
+	border:1px solid #1984ab;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+}
